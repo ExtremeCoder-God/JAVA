@@ -10,7 +10,7 @@ class IP{
 			InetAddress addr2 = InetAddress.getByAddress("localhost",ipAddr);
 			InetAddress name = InetAddress.getByName("www.imdb.com");
 			System.out.println("using getByName Address: "+name.getHostAddress()+" name:"+name.getHostName());
-			System.out.println("using getByAddress Address: "+addr1.getHostAddress()+" name:"+addr2.getHostName());
+			System.out.println("using getByAddress Address: "+addr1.getHostAddress()+" name for localhost:"+addr2.getHostAddress());
 		}
 		catch(Exception e){
 			System.out.println(e);
